@@ -1,0 +1,11 @@
+{
+    "character_name": "Alice",
+    "description": "A young girl with golden hair and curious blue eyes. She wears a simple blue dress and white apron.",
+    "visual_traits": ["golden hair", "blue eyes", "pale skin", "blue dress", "white apron"],
+    "personality_traits": ["curious", "brave", "imaginative", "polite"],
+    "relationships": ["friend of the White Rabbit", "friendly with the Cheshire Cat"],
+    "book_aesthetic": {
+        "mood": "whimsical and mysterious",
+        "setting": "Wonderland, surreal fantasy world"
+    }
+}
