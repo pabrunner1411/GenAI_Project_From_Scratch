@@ -9,6 +9,8 @@ from .character_profiles import extract_character_profiles
 from .chunking import chunk_text
 from .io_utils import read_json, read_text, write_json
 from .llm_client import BookAtmosphere, CharacterProfile, get_client
+from .builder import ImagePromptBuilder
+from .llm_client import get_hf_client
 
 __all__ = [
     'BookAtmosphere',
@@ -25,4 +27,6 @@ __all__ = [
     'read_json',
     'read_text',
     'write_json',
+    'ImagePromptBuilder',
+    'get_hf_client'
 ]

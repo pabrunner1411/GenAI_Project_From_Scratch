@@ -1,8 +1,10 @@
 from dotenv import load_dotenv
 from google import genai
 from pydantic import BaseModel
+from utils.llm_backend import ImagePromptLLM
 
 DEFAULT_MODEL = 'gemini-3.5-flash-lite'
+HUGGINFACE_MODEL = "mistralai/Mistral-7B-Instruct-v0.1"
 
 
 class CharacterProfile(BaseModel):
@@ -21,3 +23,8 @@ class BookAtmosphere(BaseModel):
 def get_client():
     load_dotenv()
     return genai.Client()
+
+
+def get_hf_client():
+    model = ImagePromptLLM(HUGGINFACE_MODEL)
+    return model.load()
