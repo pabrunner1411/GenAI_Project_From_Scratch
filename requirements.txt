@@ -1,0 +1,17 @@
+gradio>=6.20.0
+numpy>=2.0
+pypdf>=5.0
+python-docx>=1.1
+sentence-transformers>=5.0
+tiktoken>=0.9
+
+google-genai>=2.16.0
+spacy>=3.8.14
+python-dotenv>=1.2.1
+pydantic>=2.12.5
+ipykernel>=7.3.0
+
+# Install at least one spaCy language model separately:
+#   python -m spacy download en_core_web_sm
+# Optional for German documents:
+#   python -m spacy download de_core_news_sm
