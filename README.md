@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# template
-=======
+
 # Semantic Chunking + Character Feature Extraction
 
 This project combines **Part 1** and **Part 2** in a single Gradio application.
@@ -91,7 +89,3 @@ feature_extraction/
   utils/                       # Original feature-extraction modules
 ```
 
-## Privacy notice
-
-spaCy processing runs locally. Selected text excerpts are sent to the Gemini API to generate character profiles and the book atmosphere.
->>>>>>> 4337b22 (Part 1 and 2 combined)
