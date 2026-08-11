@@ -29,3 +29,7 @@ pip install -r feature_extraction/requirements.txt
 python -m spacy download en_core_web_sm
 ```
 Add a `GEMINI_API_KEY` to `feature_extraction/.env` (see `.env.example`), then run `test.ipynb`.
+
+## Part 3 — Image Prompt Builder
+
+Builds image-generation prompts from character JSON data (`CharacterProfile` in [`model.py`](model.py)) via [`builder.py`](builder.py)'s `ImagePromptBuilder`, using an LLM backend defined in [`llm_backend.py`](llm_backend.py). See [`mock.json`](mock.json) for sample input and [`test.ipynb`](test.ipynb) for a runnable example.
